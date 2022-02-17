@@ -43,12 +43,18 @@
     
     z-index:5;
   } 
-  #portfolio {
+  #portofolio {
     margin-left: 27%;
     margin-top: 45%;
     display: flex; 
     justify-content: space-between;
     width: 50%;
+  }
+
+  @media (max-width: 500px) {
+    body {
+      background-color: #ced4da;
+    }
   }
   
 #shop {
@@ -127,7 +133,7 @@
     body {
     flex-wrap: wrap;
     }
-    
+  }
     #header-img {
     width: 30vw;
     }
